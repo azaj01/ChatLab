@@ -1,5 +1,33 @@
 [
   {
+    "version": "0.17.3",
+    "date": "2026-04-17",
+    "summary": "This release adds a language preference tab for private chats, introduces sorting and filtering in the sidebar conversation list, improves AI provider and model configuration, and fixes a time filter reset issue.",
+    "changes": [
+      {
+        "type": "feat",
+        "items": [
+          "Add sorting and filtering to the conversation list.",
+          "Add a Language Preference tab for viewing language preferences.",
+          "Refine UI details for better visual consistency.",
+          "Add Anthropic as an AI provider option.",
+          "Allow selecting API interface types for third-party model services.",
+          "Allow custom display names for AI model configurations."
+        ]
+      },
+      {
+        "type": "fix",
+        "items": [
+          "Fix an issue where the time filter reset to \"All\" after returning from Settings or the AI Chat page."
+        ]
+      },
+      {
+        "type": "refactor",
+        "items": ["Extract language preference definitions into shared types to reduce duplication."]
+      }
+    ]
+  },
+  {
     "version": "0.17.2",
     "date": "2026-04-15",
     "summary": "This update adds cross-platform data merge and member message merge, strengthens dictionary and update security checks, improves the dark theme experience and logging, and fixes several bugs.",
